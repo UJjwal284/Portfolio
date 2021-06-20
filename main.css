@@ -34,7 +34,7 @@
     color: white;
     width: 130px;
     border-radius: 30px;
-    transition-duration: .6s;
+    transition-duration: .5s;
 }
 
 .pillButton {
@@ -257,4 +257,10 @@
 
 #footer .credits {
     font-size: 13px;
+}
+
+@media only screen and (max-width: 500px) {
+    .pillButton {
+        background-color: #000000;
+    }
 }
