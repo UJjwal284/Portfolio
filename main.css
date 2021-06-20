@@ -144,6 +144,7 @@
     opacity: .2;
     position: absolute;
     z-index: -1;
+    object-fit: cover;
 }
 
 #div1p {
@@ -257,10 +258,4 @@
 
 #footer .credits {
     font-size: 13px;
-}
-
-@media only screen and (max-width: 500px) {
-    .pillButton {
-        background-color: #000000;
-    }
 }
