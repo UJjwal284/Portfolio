@@ -47,6 +47,15 @@
     border: none;
 }
 
+.pillButton:hover {
+    background-color: #0458a5;
+    box-shadow: 2px 2px 5px #858585;
+    transition-duration: .25s;
+}
+*{
+    cursor: default;
+}
+
 .btn1 {
     top: 2%;
     position: sticky;
@@ -122,7 +131,8 @@
     color: #728394;
 }
 
-* {
+.div3cont li {
+    margin-bottom: 10px;
 }
 
 .div1 h1 {
@@ -141,7 +151,8 @@
     color: #d76b6b;
 }
 
-.div3cont h3 {
+.div3cont h4 {
+    margin-left: 70px;
     color: #728394;
     font-weight: 700
 }
